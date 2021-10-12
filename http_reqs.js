@@ -13,7 +13,7 @@ const {readFilePromise, writeFilePromise, appendFilePromise} = require("./file_o
 // ---------------------------------const & let ---------------------------------------
 const app = express();
 const port = 8000;
-let dir = 'C://Users//Ashutosh Kumar//Desktop//Quovantis_Practice//JavaScript//poc//poc_11_10_2021';
+let dir = __dirname;
 let filePath = 'C://Users//Ashutosh Kumar//Desktop//Quovantis_Practice//JavaScript//poc//poc_11_10_2021//default.txt';
 
 
